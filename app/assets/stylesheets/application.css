@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 33px;
+} 
+.top-text {
+	margin: 33px;
+}
+.flash {
+	color: green;
+	margin: 0 0 33px 33px;
+}
+.edit-box {
+	margin: 33px;
+}
+.edit-title {
+	display: inline-block;
+}
+.edit-text {
+	display: inline-block;
+}
+
+table {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+table th {
+	text-align: center;
+	padding: 0 10px 10px 10px;
+}
+table td {
+	padding: 0px 10px 10px 0 ;
+}
+
+.field {
+	margin: 10px 0;
+}
+a:link {
+	color: black;
+	margin: 5px;
+}
+a:visited {
+	color: #333;
+}
+a:hover {
+	background-color: black;
+	color: #fff;
+}

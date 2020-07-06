@@ -1,0 +1,16 @@
+<% if flash[:notice] %>
+	<div class ="flash">
+		<%= flash[:notice] %>
+	</div>
+<% end %>
+
+<div class="edit-box">
+<p class="edit-title"><strong>Title:</strong></p>
+<span class="edit-text"><%= @book.title %></span>
+</div>
+<div class="edit-box">
+<p class="edit-title"><strong>Body:</strong></p>
+<span class="edit-text"><%= @book.body %></span>
+</div>
+
+<%= link_to 'Edit', edit_book_path %>|<%= link_to 'Back', books_path %>
